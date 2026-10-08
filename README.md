@@ -4,7 +4,7 @@
 
 **Explore the data behind every image, sound and frame.**
 
-**Arpan Patra** · Image · Audio · Video · OCR · AI voice
+**Chhavi Gawande** · Image · Audio · Video · OCR · AI voice
 
 [**Open the browser demo ↗**](https://multimedia-laboratory-nu.vercel.app) · [Datasets](datasets/README.md) · [Frontend source](https://github.com/ARPANPATRA111/mm-lab/tree/frontend/astro-metadata-lab/frontend)
 
