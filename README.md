@@ -54,17 +54,7 @@ python Cluster05-Task-Pipe/task_pipe.py datasets/task-pipe/real/ --output-dir ou
 
 The voice transformer is a separate Next.js app (`cd voice-transformer`, `pnpm install`, `pnpm dev`). It needs an ElevenLabs API key; see [its README](voice-transformer/README.md). Try it live at [voice-transformer.vercel.app](https://voice-transformer.vercel.app).
 
-## Task Pipe in one minute
 
-```text
-damaged photo -> measure problems -> fix (exposure, contrast, noise, shadows, blur)
-              -> fix geometry (rotate, straighten, flatten) -> find text lines
-              -> read each line with the right language model -> text + report + results.html
-```
-
-- Plain OCR gets 44% of characters wrong on the [171-image test set](datasets/task-pipe/README.md); Task Pipe gets 0.5%.
-- It runs offline on the CPU in about 3–4 s per image, and a spinner shows progress while it works.
-- If Hindi or Arabic looks broken in your terminal, open the `results.html` it writes. The browser shows every script correctly.
 
 ## Notes
 
